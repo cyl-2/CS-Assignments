@@ -1,0 +1,14 @@
+Student ID: 120377796
+Student name: Chen Yu Lin
+
+A. My (client) socket connection connected to the server using port number and IP address, then a connection is created between the server of my friend and my client connection.
+On my side, my terminal waits for me, the user, to input a message. When a message is entered, it's sent to my friend's server.
+
+B. The log file on my server stayed the same, it didn't change because only the server writes to the log file, the client doesn't write to anything (and I'm the client in this case).
+
+C. Yes, because in this case, they are the server, so my messages were received by the server (my friend) and then written to the log file on my friend's laptop.
+
+D. Yes it's possible! 
+
+E. So that multiple messages can be continuously sent between 2 users so that it feels like a "real" chat program! If the client terminates after each message that was sent,
+I don't think the users will continue using my chat program...!

@@ -1,0 +1,18 @@
+Question : differences between TCP and UDP
+
+-- In python sockets:
+TCP sockets are connection-based, you can't send/receive anything unless you are connected to another TCP 
+socket connection. Once connected, a TCP socket can only send/receive to/from the other TCP socket that 
+it is connected to (the server socket connection is bound to only one client socket connection).
+On the other hand, UDP is not connection-based, you can send/receive to/from anyone with the same one socket 
+(the server socket connection can connect to multiple client sockets).
+
+-- In general networking:
+TCP is a connection-oriented protocol where devices establishes connections in order to transmit data.
+UDP is a datagram-oriented protocol, where devices don't need to establish a connection in order to transmit data.
+
+TCP is reliable because it guarantees the delivery of data to the destination router.
+In UDP, the delivery of data to the destination router cannot be guaranteed.
+
+TCP provides extensive error-checking mechanisms, for example it provides flow control and acknowledgment of data.
+UDP only provides the basic error-checking mechanisms using checksums.

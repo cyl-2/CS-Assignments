@@ -1,0 +1,14 @@
+Student ID: 120377796
+Student Name: Chen Yu Lin
+
+-- Problem 1 --
+I didn't understand how HTTP requests are sent to server using GET, so I googled the structure of 
+the GET method and read about the mechanics of the HTTP requests in terms of how they relate to the socket 
+module in python. After some trial and error, I figured out the code to to get the HTTP request working correctly.
+
+-- Problem 2 --
+I was confused by the command line argument requirement of this lab, I originally thought I just had to prompt the user 
+for three inputs (host, port and file) as three separate input variables but then I realised that I was actually supposed 
+to run the client file using "python ./client_solution.py localhost 6789 HelloWorld.html". So then I did some googling 
+to find out how to use and how to code for cmd line arguments. I found out that I had to import a module called 
+"sys" in order to parse command line arguments.
